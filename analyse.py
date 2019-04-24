@@ -1,6 +1,6 @@
 import librosa
 
-y, sr = librosa.load('audio.wav') 
+y, sr = librosa.load('exemple.wav')
 
 tempo, beat_frames = librosa.beat.beat_track(y=y, sr=sr)
 
